@@ -52,7 +52,7 @@
           echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
       }
       // Redirect back to the form with a success message
-      header("Location: contact.php?status=success");
+      header("Location: contact.html?status=success");
       exit();
   }
   ?>
