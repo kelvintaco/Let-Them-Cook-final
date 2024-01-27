@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar fade-up">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="Let Them Cook" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Home </a>
+          <a href="about.html" class="nav-link"> About </a>
+          <a href="tags.html" class="nav-link"> Tags </a>
+          <a href="recipes.html" class="nav-link"> Recipes </a>
+          <a href="submit.php" class="nav-link"> Submit Your Recipe </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.php" class="btn"> Contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero fade-up">
+          <img
+            src="./assets/recipes/recipe-4.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info fade-up">
+            <h2>Roasted Chicken</h2>
+            <p>
+              This roasted chicken is perfectly seasoned and just like the way my grandmother used to make it. 
+              The method used in this recipe results in the juiciest chicken! 
+              We loved to nibble on the celery after it was cooked.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>10 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>120 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags fade-up">
+              Tags : <a href="tag-chicken.html">Chicken</a>
+              <a href="tag-lunch.html">Lunch</a>
+              <a href="tag-dinner.html">Dinner</a>
+              <a href="tag-easy.html">Easy</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction fade-up">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Preheat the oven to 350 degrees F (175 degrees C).
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction fade-up">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Place chicken in a roasting pan; season generously inside and out with onion powder, salt, and pepper. 
+                Place 3 tablespoons of butter in chicken cavity; arrange dollops of remaining butter on the outside of chicken. 
+                Cut celery into 3 or 4 pieces; place in the chicken cavity.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction fade-up">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Bake chicken uncovered in the preheated oven until no longer pink at the bone and the juices run clear, about 1 hour and 15 minutes.
+                An instant-read thermometer inserted into the thickest part of the thigh, near the bone, should read 165 degrees F (74 degrees C).
+              </p>
+            </div>
+            <div class="single-instruction fade-up">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Remove from the oven and baste with drippings. Cover with aluminum foil and allow to rest for about 30 minutes before serving.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div class="fade-up">
+              <h4>ingredients</h4>
+              <p class="single-ingredient">1 (3 pound) whole chicken, giblets removed</p>
+              <p class="single-ingredient">Seasonings: salt, black pepper, and onion powder.</p>
+              <p class="single-ingredient">½ cup butter</p>
+              <p class="single-ingredient">Celery</p>
+              <p class="single-ingredient">1 stalk celery, leaves removed</p>
+            <div class="fade-up">
+              <h4>tools</h4>
+              <p class="single-tool">Knife</p>
+              <p class="single-tool">Thread; for strapping the chicken/p>
+              <p class="single-tool">Stainless Tray</p>
+              <p class="single-tool">Aluminum Foil</p>
+              <p class="single-tool">Thermometer</p>
+              <p class="single-tool">Chopping Board</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Let Them Cook</span> Built by
+        <a href="https://www.facebook.com/">Nyiknyok</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

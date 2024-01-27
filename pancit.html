@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar fade-up">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="Let Them Cook" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Home </a>
+          <a href="about.html" class="nav-link"> About </a>
+          <a href="tags.html" class="nav-link"> Tags </a>
+          <a href="recipes.html" class="nav-link"> Recipes </a>
+          <a href="submit.php" class="nav-link"> Submit Your Recipe </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.php" class="btn"> Contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero fade-up">
+          <img
+            src="./assets/recipes/recipe-2.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info fade-up">
+            <h2>Pancit</h2>
+            <p>
+              This pancit recipe is a flavor sensation — and it comes together in just half an hour!
+              Pancit is a Filipino dish. There are many different types of pancit, but it always features rice noodles and vegetables (and often meat, such as pork or chicken). 
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>10 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>120 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags fade-up">
+              Tags : <a href="tag-breakfast.html">Breakfast</a>
+              <a href="tag-occasion.html">Occasion</a>
+              <a href="tag-lunch.html">Lunch</a>
+              <a href="tag-vegie.html">Vegetable</a>
+              <a href="tag-intermediate.html">Intermediate</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction fade-up">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Soften the rice noodles.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction fade-up">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Cook the onions and garlic in oil, then add the remaining ingredients.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction fade-up">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Cook until the cabbage is soft, then stir in the softened noodles. 
+                Garnish with lemon wedges. 
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div class="fade-up">
+              <h4>ingredients</h4>
+              <p class="single-ingredient">1 (12 ounce) package dried rice noodles</p>
+              <p class="single-ingredient">1 teaspoon vegetable oil</p>
+              <p class="single-ingredient">1 onion, finely diced</p>
+              <p class="single-ingredient">3 cloves garlic, minced</p>
+              <p class="single-ingredient">2 cups diced cooked chicken breast meat</p>
+              <p class="single-ingredient">1 small head cabbage, thinly sliced</p>
+              <p class="single-ingredient">4 carrot, thinly sliced</p>
+              <p class="single-ingredient">¼ cup soy sauce</p>
+              <p class="single-ingredient">2 lemons - cut into wedges, for garnish</p>
+            </div>
+            <div class="fade-up">
+              <h4>tools</h4>
+              <p class="single-tool">Knife</p>
+              <p class="single-tool">Large Heavy Pot With Lid</p>
+              <p class="single-tool">Measuring Spoons</p>
+              <p class="single-tool">Measuring Cups</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Let Them Cook</span> Built by
+        <a href="https://www.facebook.com/">Nyiknyok</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
